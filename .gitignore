@@ -1,0 +1,10 @@
+streetscape/node_modules/
+streetscape/yarn.lock
+xviz_avs/__pycache__/
+scenarios/__pycache__/
+xviz_avs/__pycache__/
+xviz_avs/v2/__pycache__/
+xviz_avs/builder/__pycache__/
+xviz_avs/declarative_ui/__pycache__/
+xviz_avs/server/__pycache__/
+xviz_avs/builder/declarative_ui/__pycache__/
