@@ -7,11 +7,11 @@ import xviz_avs
 from xviz_avs.builder import XVIZBuilder, XVIZMetadataBuilder
 from xviz_avs.server import XVIZServer, XVIZBaseSession
 
-from scenarios.circle import CircleScenario
+from scenarios.simple_carla import CARLAScenario
 
 
 class ScenarioSession(XVIZBaseSession):
-    def __init__(self, socket, request, scenario=CircleScenario()):
+    def __init__(self, socket, request, scenario=CARLAScenario()):
         super().__init__(socket, request)
         self._scenario = scenario
         self._socket = socket
